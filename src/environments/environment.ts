@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  laravel:{
+    baseUrl:'http://localhost:8000',
+    api:'/api',
+    book_search:'/book',
+    book_get:'/book/all',
+    book_post:'/book/post',
+    login:'/login',
+    register:'/register',
+    book_delete:'/book/delete',
+    book_update:'/book/put'
+}
 };
 
 /*
